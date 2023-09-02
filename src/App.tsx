@@ -2,6 +2,7 @@ import { Layout } from './layout'
 import { RadioButton } from './components/radio'
 import { TextInputs } from './components/text'
 import { Checkbox } from './components/checkbox'
+import { Tweet } from './components/tweet'
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
         <TextInputs />
         <RadioButton />
         <Checkbox />
+        <Tweet />
       </div>
     </Layout>
   )
